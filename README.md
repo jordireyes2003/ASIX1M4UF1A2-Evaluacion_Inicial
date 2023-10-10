@@ -25,3 +25,12 @@ Respuesta.
 |Aplicaciones|Visto|
 |-------------|:----------:|
 |Google Docs|        |
+|Google Slides|       |
+|Google Sheets|       |
+|Google Calendar|       |
+|Google Meet|        |
+|...|...|
+
+6. ¿Qué es HTML?
+
+Respuesta
