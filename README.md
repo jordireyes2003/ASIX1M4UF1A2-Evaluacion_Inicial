@@ -20,3 +20,8 @@ Respuesta.
 
 Respuesta.
 
+5. Herramientas de Google:
+
+|Aplicaciones|Visto|
+|-------------|:----------:|
+|Google Docs|        |
