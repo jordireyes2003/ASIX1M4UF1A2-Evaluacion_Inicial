@@ -58,3 +58,27 @@ CSS es uno de los lenguajes más importantes que se utilizan para ordenar las in
 8. Flujo de trabajo (navegador, petición, servidor y respuesta):
 
 [Esto es una imagen del flujo de trabajo](https://github.com/jordireyes2003/ASIX1M4UF1A2-Evaluacion_Inicial/blob/main/Flujo%20de%20trabajo.jpg "Imagen esquema flujo de trabajo")
+
+## HTML y CSS
+
+< HTML > ... < /HTML > : Indica el comienzo y fin de un archivo HTML
+< HEAD > ... < /HEAD > : Indica el comienzo y fin de un encabezado (aquí se coloca generalmente el título).
+< TITLE > ... < /TITLE > : Indica el título.
+< BODY > ... < /BODY > : Indica el comienzo y fin del cuerpo de la página.
+< P > ... < /P > : Indica comienzo y fin de un párrafo.
+< BR > : Permite saltarse una línea (se llama quiebre de línea).
+< UL > ... < /UL > : Indica comienzo y fin de una lista no ordenada (puntos). Dentro de ellos, cada item empieza por < LI > y termina al terminar la línea.
+< OL > ... < /OL > : Indica comienzo y fin de una lista ordenada (números). Dentro de ellos, cada item empieza por < LI > y termina al terminar la línea.
+Ejemplo:
+
+```
+  < OL >
+        < LI > Primer item
+        < LI > Segundo item
+        < UL > 
+          < LI > Primer subitem
+          < LI > Segundo subitem
+        < /UL >
+        < LI > Tercer item
+      < /OL >
+```
