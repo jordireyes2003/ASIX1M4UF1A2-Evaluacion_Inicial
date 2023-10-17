@@ -57,3 +57,4 @@ CSS es uno de los lenguajes más importantes que se utilizan para ordenar las in
 
 8. Flujo de trabajo (navegador, petición, servidor y respuesta):
 
+[Esto es una imagen del flujo de trabajo](https://github.com/jordireyes2003/ASIX1M4UF1A2-Evaluacion_Inicial/blob/main/Flujo%20de%20trabajo.jpg "Imagen esquema flujo de trabajo")
