@@ -98,3 +98,202 @@ Ejemplo:
         < LI > Tercer item
       < /OL >
 ```
+
+La etiqueta < a > en HTML se utiliza para crear hipervínculos, es decir, enlaces a otras páginas web o recursos en línea. Aquí tienes un ejemplo de cómo se usa la etiqueta < a >:
+
+```
+<a href="https://www.ejemplo.com">Texto del enlace</a>
+
+```
+
+La etiqueta < a > en HTML puede contener el atributo href, que se utiliza para especificar la dirección URL a la que se debe enlazar el contenido del enlace. El atributo href define la "referencia de hipertexto" (Hypertext Reference) y es esencial para crear enlaces web. Aquí tienes un ejemplo de cómo se utiliza el atributo href en la etiqueta < a >:
+
+
+```
+<a href="https://www.ejemplo.com">Texto del enlace</a>
+```
+
+La etiqueta < h1 > en HTML se utiliza para definir un encabezado de nivel 1 en una página web. Los encabezados se utilizan para estructurar el contenido de una página y proporcionar una jerarquía visual en el texto. El < h1 > es el encabezado principal y generalmente se coloca al comienzo de la página para indicar el título principal o el tema principal de la página. Aquí tienes un ejemplo de cómo se usa la etiqueta < h1 >:
+
+```
+<h1>Este es un título principal</h1>
+```
+
+El atributo id se utiliza para que puedas aplicar estilos CSS, manipular elementos con JavaScript y crear vínculos internos a elementos específicos en la misma página.
+
+Aquí tienes un ejemplo de cómo se usa el atributo id en una etiqueta HTML:
+
+```
+<p id="mi-parrafo">Este es un párrafo con un ID.</p>
+```
+
+La etiqueta < img > en HTML se utiliza para incrustar imágenes en una página web. Aquí tienes un ejemplo de cómo se utiliza la etiqueta < img >:
+
+```
+<img src="imagen.jpg" alt="Texto alternativo">
+```
+
+src (source): Este atributo especifica la ubicación de la imagen que se mostrará en la página web. Puede ser una URL (dirección web) o una ruta relativa a la imagen en tu servidor. En el ejemplo, "imagen.jpg" es la fuente de la imagen.
+
+
+alt (texto alternativo): Este atributo proporciona un texto descriptivo de la imagen, que se mostrará si la imagen no se puede cargar o si el usuario utiliza un lector de pantalla. Proporcionar un texto alternativo es importante para la accesibilidad web y para describir la imagen a los usuarios que no pueden verla. En el ejemplo, "Texto alternativo" es el texto alternativo.
+
+La etiqueta < table > en HTML se utiliza para crear tablas en una página web. Las tablas son útiles para organizar datos en filas y columnas, y se componen de varias etiquetas secundarias para definir la estructura de la tabla. Aquí tienes un ejemplo básico de cómo se utiliza la etiqueta < table >:
+
+```
+<table>
+  <tr>
+    <th>Encabezado de la columna 1</th>
+    <th>Encabezado de la columna 2</th>
+  </tr>
+  <tr>
+    <td>Dato 1, Fila 1</td>
+    <td>Dato 2, Fila 1</td>
+  </tr>
+  <tr>
+    <td>Dato 1, Fila 2</td>
+    <td>Dato 2, Fila 2</td>
+  </tr>
+</table>
+```
+
+
+La etiqueta < tr > en HTML se utiliza para definir una fila en una tabla HTML. Dentro de una tabla, las filas se utilizan para organizar y presentar datos en una estructura de filas y columnas. Cada fila contiene una o más celdas de datos (definidas con la etiqueta < td> ) y puede contener también celdas de encabezado (definidas con la etiqueta < th > en la primera fila de la tabla).
+
+Aquí tienes un ejemplo de cómo se utiliza la etiqueta < tr > en una tabla HTML:
+
+```
+<table>
+  <tr>
+    <th>Encabezado de columna 1</th>
+    <th>Encabezado de columna 2</th>
+  </tr>
+  <tr>
+    <td>Dato 1, Fila 1</td>
+    <td>Dato 2, Fila 1</td>
+  </tr>
+  <tr>
+    <td>Dato 1, Fila 2</td>
+    <td>Dato 2, Fila 2</td>
+  </tr>
+</table>
+```
+
+La etiqueta < td > en HTML se utiliza para definir las celdas de datos en una tabla HTML. Cada celda de datos contiene información que se organiza en filas y columnas en una tabla. Aquí tienes un ejemplo de cómo se utiliza la etiqueta < td > en una tabla HTML:
+
+```
+<table>
+  <tr>
+    <td>Dato 1, Fila 1</td>
+    <td>Dato 2, Fila 1</td>
+  </tr>
+  <tr>
+    <td>Dato 1, Fila 2</td>
+    <td>Dato 2, Fila 2</td>
+  </tr>
+</table>
+```
+
+La etiqueta < thead > en HTML se utiliza para definir la sección de encabezado de una tabla HTML. El contenido dentro de esta sección se utiliza típicamente para enumerar o nombrar las columnas de la tabla. La etiqueta < thead > se coloca generalmente dentro de la etiqueta < table > y se utiliza junto con las etiquetas < th > para definir los encabezados de columna.
+
+Aquí tienes un ejemplo de cómo se utiliza la etiqueta < thead > en una tabla HTML:
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>Encabezado de columna 1</th>
+      <th>Encabezado de columna 2</th>
+      <th>Encabezado de columna 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dato 1, Fila 1</td>
+      <td>Dato 2, Fila 1</td>
+      <td>Dato 3, Fila 1</td>
+    </tr>
+    <!-- Más filas de datos -->
+  </tbody>
+</table>
+```
+
+La etiqueta < tbody > en HTML se utiliza para definir la sección del cuerpo de una tabla HTML. El contenido dentro de esta sección generalmente contiene las filas y celdas de datos que forman el contenido principal de la tabla. La etiqueta < tbody > se coloca dentro de la etiqueta < table > y se utiliza para separar la sección de datos del encabezado de la tabla.
+
+Aquí tienes un ejemplo de cómo se utiliza la etiqueta < tbody > en una tabla HTML:
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>Encabezado de columna 1</th>
+      <th>Encabezado de columna 2</th>
+      <th>Encabezado de columna 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dato 1, Fila 1</td>
+      <td>Dato 2, Fila 1</td>
+      <td>Dato 3, Fila 1</td>
+    </tr>
+    <tr>
+      <td>Dato 1, Fila 2</td>
+      <td>Dato 2, Fila 2</td>
+      <td>Dato 3, Fila 2</td>
+    </tr>
+    <!-- Más filas de datos -->
+  </tbody>
+</table>
+```
+
+La etiqueta < tfoot > en HTML se utiliza para definir la sección de pie de una tabla HTML. La sección de pie de la tabla generalmente contiene resúmenes, totales u otra información que se aplica a todo el conjunto de datos en la tabla. La etiqueta < tfoot > se coloca dentro de la etiqueta < table >, después de las secciones de encabezado (< thead >) y cuerpo (< tbody >).
+
+Aquí tienes un ejemplo de cómo se utiliza la etiqueta < tfoot > en una tabla HTML:
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>Encabezado de columna 1</th>
+      <th>Encabezado de columna 2</th>
+      <th>Encabezado de columna 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dato 1, Fila 1</td>
+      <td>Dato 2, Fila 1</td>
+      <td>Dato 3, Fila 1</td>
+    </tr>
+    <tr>
+      <td>Dato 1, Fila 2</td>
+      <td>Dato 2, Fila 2</td>
+      <td>Dato 3, Fila 2</td>
+    </tr>
+    <!-- Más filas de datos -->
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Total: $1000</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+El atributo border en HTML se solía utilizar para definir el ancho del borde alrededor de una tabla HTML y sus celdas. Sin embargo, este atributo se considera obsoleto en HTML5 y se recomienda encarecidamente usar estilos CSS en su lugar para controlar la apariencia de las tablas.
+
+Ejemplo: 
+
+```
+<style>
+  table {
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+    border: 2px solid #000; /* Ancho y color del borde de la tabla */
+  }
+  th, td {
+    border: 1px solid #000; /* Ancho y color del borde de las celdas */
+    padding: 10px; /* Añade espacio interno para el contenido */
+  }
+</style>
+```
