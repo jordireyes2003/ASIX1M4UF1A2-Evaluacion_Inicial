@@ -2,6 +2,53 @@
 
 Repositorio para apuntes de clase.
 
+## Primer capitulo: MARKDOWN
+
+Este texto esta en *cursiva*.
+Este texto esta en _cursiva_.
+Este texto esta en **negrita**.
+Este texto esta en __negrita__.
+
+Este texto esta en **_negrita y cursiva_**.
+
+1. Primera opcion de menú
+2. Segunda opcion de menú
+3. Tercera opcion de menú
+
+* Primera opcion de lista desordenada
+* Segunda opcion de lista desordenada
+- Tercera opcion de lista desordenada
+    1. Primer submenú
+    2. Segundo submenú
+- Cuarta opcion de lista desordenada
+    3. Tercer submenú
+    4. Cuarto submenú
++ Quinta opcion de lista desordenada
++ Sexta opcion de lista desordenada
+
+```
+<html>
+    <head>
+    </head>
+    <body>
+        <p>Esto es un párrafo</p>
+    </body>
+</html>
+```
+
+[Esto es un enlace](http://joan23.fje.edu "Enlace a la web del cole")
+
+|Primera Col.|Segunda Col.|3 Col.|
+|---------------|:------------:|---------:|
+|Col 2 es|Centrada|35€|
+|Col 3 es|Derecha|134€|
+|Estilo Cebra|Gris|Blanco|
+|Clase|ASIX|M4|
+
+-[ ] Opcion A
+-[X] Opcion B
+-[ ] Opcion C
+
 ## Evaluación Inicial
 
 1. ¿Qué es una página web?
