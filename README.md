@@ -345,6 +345,58 @@ Ejemplo:
 </style>
 ```
 
+La etiqueta < div > en HTML es un elemento de bloque que se utiliza para crear divisiones o contenedores en una página web. 
+
+Ejemplo:
+
+```
+<body>
+    <div class="nota">
+        <h2>Título de la Nota 1</h2>
+        <p>Contenido de la primera nota...</p>
+    </div>
+
+    <div class="nota">
+        <h2>Título de la Nota 2</h2>
+        <p>Contenido de la segunda nota...</p>
+    </div>
+
+    <div class="nota">
+        <h2>Título de la Nota 3</h2>
+        <p>Contenido de la tercera nota...</p>
+    </div>
+</body>
+```
+
+En HTML, el atributo class se utiliza para asignar una o más clases a un elemento. Las clases son identificadores que permiten aplicar estilos CSS o seleccionar elementos específicos mediante JavaScript. Puedes asignar una clase a casi cualquier elemento HTML.
+
+Ejemplo: 
+
+```
+ <style>
+        /* Estilos de ejemplo */
+        .destacado {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .importante {
+            background-color: #ffc107;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p class="destacado">Este texto está destacado</p>
+
+    <div class="importante">
+        <p>Este es un contenido importante.</p>
+    </div>
+
+    <p>Este es un párrafo normal.</p>
+</body>
+```
+
 ## Responsive 
 
 Crear un diseño web responsive implica diseñar y desarrollar un sitio web que se adapte y se vea bien en una variedad de dispositivos y tamaños de pantalla, como ordenadores de escritorio, tabletas y teléfonos móviles. 
