@@ -344,3 +344,119 @@ Ejemplo:
   }
 </style>
 ```
+
+## Responsive 
+
+Crear un diseño web responsive implica diseñar y desarrollar un sitio web que se adapte y se vea bien en una variedad de dispositivos y tamaños de pantalla, como ordenadores de escritorio, tabletas y teléfonos móviles. 
+
+A continuacion se mostrara un ejemplo (sacado de internet):
+
+```
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tu Sitio Web</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <article>
+            <h2>Artículo 1</h2>
+            <p>Contenido del artículo 1...</p>
+        </article>
+
+        <article>
+            <h2>Artículo 2</h2>
+            <p>Contenido del artículo 2...</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
+
+```
+
+```
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media queries para hacer el diseño responsive */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+
+```
+
+En este ejemplo, se utiliza un enfoque sencillo con un encabezado, una sección principal y un pie de página. El diseño se ajusta según el tamaño de la pantalla mediante el uso de media queries. Cuando la pantalla es más pequeña que 600px de ancho, el tamaño del texto del encabezado se reduce, los elementos de navegación se muestran como bloques y el espacio de relleno en la sección principal se reduce.
